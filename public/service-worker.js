@@ -1,7 +1,7 @@
 let CACHE_NAME = 'pc-cache';
 const DATA_NAME_CACHE = 'pc-data-cache';
 
-const urlToCache = [
+const urlsToCache = [
     '/',
     '/db.js',
     '/index.js',
