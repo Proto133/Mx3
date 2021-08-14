@@ -1,11 +1,15 @@
+// ! Getting an Error in browser.
+// ? DATA_CACHE_NAME IS NOT DEFINED on line 27?
+const DATA_CACHE_NAME = 'pc-data-cache';
 let CACHE_NAME = 'pc-cache';
-const DATA_NAME_CACHE = 'pc-data-cache';
 
 const urlsToCache = [
     '/',
     '/db.js',
     '/index.js',
-    '/styles.css'
+    '/styles.css',
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png'
 ];
 
 console.log(`SELF is: ${self}`)
