@@ -1,5 +1,5 @@
 // Service Worker checks for connection
-if ('serviceWorker' in navigator) {
+if ('ServiceWorker' in navigator) {
     console.log(navigator)
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./serviceWorker.js')
@@ -8,7 +8,6 @@ if ('serviceWorker' in navigator) {
             })
     })
 }
-
 
 let transactions = [];
 let myChart;
