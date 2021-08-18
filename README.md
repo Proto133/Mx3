@@ -19,6 +19,15 @@
     
   ## Installation Instructions 📣
 ---
+1. Clone this repo
+2. Run `npm i`
+3. Type `node server.js` from repo root directory
+4. Navigate to `http://localhost:3000`
+5. Track your account balance.
+
+Alternatively, you can just go checkout the [deployed application](https://mobile-money-mate.herokuapp.com/)
+
+**Please note that there are currently no users or logins available so this is more of a proof of concept than an actual functional solution**
 
   
   
